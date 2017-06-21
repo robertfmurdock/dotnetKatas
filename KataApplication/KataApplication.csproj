@@ -43,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RomanNumeralTest.cs" />
-    <Compile Include="RomanNumeralConverter.cs" />
+    <Compile Include="RomanNumeralConvertion\RomanNumeralConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RomanNumeralConvertion\RomanNumeralTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="instructions.txt" />
     <Content Include="packages.config" />
+    <Content Include="RomanNumeralConvertion\instructions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
