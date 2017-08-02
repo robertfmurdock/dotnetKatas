@@ -1,15 +1,18 @@
 using System;
 using NUnit.Framework;
 
-[TestFixture]
-public class FizzBuzzTest
+namespace KataApplication.FizzBuzz
 {
-    [Test]
-    public void shouldReturn1for1()
+    [TestFixture]
+    public class FizzBuzzTest
     {
-        var fizzBuzz = new FizzBuzz();
-        var actualReturnValue = fizzBuzz.process(1);
-        String expectedReturnValue = "1";
-        Assert.AreEqual(expectedReturnValue, actualReturnValue);
+        [Test]
+        public void ShouldReturn1for1()
+        {
+            var fizzBuzz = new FizzBuzz();
+            var actualReturnValue = fizzBuzz.Process(1);
+            String expectedReturnValue = "1";
+            Assert.AreEqual(expectedReturnValue, actualReturnValue);
+        }
     }
 }

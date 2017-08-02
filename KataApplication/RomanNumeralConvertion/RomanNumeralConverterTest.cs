@@ -1,11 +1,10 @@
 ﻿using NUnit.Framework;
 
-namespace KataApplication
+namespace KataApplication.RomanNumeralConvertion
 {
     [TestFixture]
     public class RomanNumeralConverterTest
     {
-
         [Test]
         public void ShouldReturn1ForI()
         {
@@ -13,6 +12,5 @@ namespace KataApplication
             var expectedResult = 1;
             Assert.AreEqual(expectedResult, actualResult);
         }
-
     }
 }

@@ -45,13 +45,17 @@
   <ItemGroup>
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
     <Compile Include="FizzBuzz\FizzBuzzTest.cs" />
+    <Compile Include="GildedRose\GildedRose.cs" />
+    <Compile Include="GildedRose\GildedRoseTest.cs" />
+    <Compile Include="GildedRose\Item.cs" />
     <Compile Include="RomanNumeralConvertion\RomanNumeralConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RomanNumeralConvertion\RomanNumeralTest.cs" />
+    <Compile Include="RomanNumeralConvertion\RomanNumeralConverterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FizzBuzz\README.md" />
+    <Content Include="GildedRose\readme.md" />
     <Content Include="packages.config" />
     <Content Include="RomanNumeralConvertion\instructions.txt" />
   </ItemGroup>

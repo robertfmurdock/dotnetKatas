@@ -1,7 +1,10 @@
-public class FizzBuzz {
+namespace KataApplication.FizzBuzz
+{
+   public class FizzBuzz {
 
-    public string process(int inputValue) {
-       return null;
-    }
+      public string Process(int inputValue) {
+         return null;
+      }
 
+   }
 }
