@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CombinedNumber\NumberCombiner.cs" />
+    <Compile Include="CombinedNumber\NumberCombinerTest.cs" />
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
     <Compile Include="FizzBuzz\FizzBuzzTest.cs" />
     <Compile Include="GildedRose\GildedRose.cs" />
@@ -54,6 +56,7 @@
     <Compile Include="RomanNumeralConvertion\RomanNumeralConverterTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CombinedNumber\readme.md" />
     <Content Include="FizzBuzz\README.md" />
     <Content Include="GildedRose\readme.md" />
     <Content Include="packages.config" />
