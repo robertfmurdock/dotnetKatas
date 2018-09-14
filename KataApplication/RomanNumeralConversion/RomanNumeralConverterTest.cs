@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace KataApplication.RomanNumeralConvertion
+namespace KataApplication.RomanNumeralConversion
 {
     [TestFixture]
     public class RomanNumeralConverterTest

@@ -1,6 +1,6 @@
-﻿namespace KataApplication
+﻿namespace KataApplication.RomanNumeralConversion
 {
-    public class RomanNumeralConverter
+    public static class RomanNumeralConverter
     {
         public static int Convert(string numeralText)
         {
