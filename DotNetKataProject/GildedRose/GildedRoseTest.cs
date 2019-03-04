@@ -1,10 +1,10 @@
-﻿using NUnit.Framework;
+﻿using Xunit;
 
-namespace KataApplication.GildedRose
+namespace DotNetKataProject.GildedRose
 {
     public class GildedRoseTest
     {
-        [Test]
+        [Fact]
         public void TheTruth()
         {
             Assert.True(true);

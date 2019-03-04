@@ -1,18 +1,18 @@
 using System;
-using NUnit.Framework;
+using KataApplication.CombinedNumber;
+using Xunit;
 
-namespace KataApplication.CombinedNumber
+namespace DotNetKataProject.CombinedNumber
 {
-    [TestFixture]
     public class NumberCombinerTest
     {
-        [Test]
-        public void ShouldReturn1for1()
+        [Fact]
+        public void ShouldReturn1For1()
         {
             var combiner = new NumberCombiner();
             var actualReturnValue = combiner.Process(new[] {1});
             String expectedReturnValue = "1";
-            Assert.AreEqual(expectedReturnValue, actualReturnValue);
+            Assert.Equal(expectedReturnValue, actualReturnValue);
         }
     }
 }

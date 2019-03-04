@@ -1,16 +1,16 @@
-﻿using NUnit.Framework;
+﻿using KataApplication.RomanNumeralConversion;
+using Xunit;
 
-namespace KataApplication.RomanNumeralConversion
+namespace DotNetKataProject.RomanNumeralConversion
 {
-    [TestFixture]
     public class RomanNumeralConverterTest
     {
-        [Test]
+        [Fact]
         public void ShouldReturn1ForI()
         {
             var actualResult = RomanNumeralConverter.Convert("I");
             var expectedResult = 1;
-            Assert.AreEqual(expectedResult, actualResult);
+            Assert.Equal(expectedResult, actualResult);
         }
     }
 }
