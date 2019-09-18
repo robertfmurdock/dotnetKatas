@@ -10,7 +10,7 @@ namespace DotNetKataProject.FizzBuzz
         {
             var fizzBuzz = new KataApplication.FizzBuzz.FizzBuzz();
             var actualReturnValue = fizzBuzz.Process(1);
-            String expectedReturnValue = "1";
+            const string expectedReturnValue = "1";
             Assert.Equal(expectedReturnValue, actualReturnValue);
         }
     }
